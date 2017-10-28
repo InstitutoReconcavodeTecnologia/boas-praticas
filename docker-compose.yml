@@ -8,5 +8,5 @@ services:
       DISPLAY: ${DISPLAY}
     volumes:
       - "/tmp/.X11-unix:/tmp/.X11-unix"
-      - "${HOME}/.eclipse-docker:/home/developer"
-      - "${HOME}:/workspace"
+      - "${HOME}/.eclipse-docker:/root"
+      - "${HOME}:/root/workspace"
