@@ -20,4 +20,4 @@ RUN wget http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/downloads/rele
     tar -xf /tmp/eclipse.tar.gz -C /opt && \
     rm /tmp/eclipse.tar.gz
 
-CMD /opt/eclipse/eclipse
+CMD /opt/eclipse/eclipse -data /root/workspace

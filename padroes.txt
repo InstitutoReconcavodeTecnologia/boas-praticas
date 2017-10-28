@@ -2,10 +2,55 @@ JAVA
 https://google.github.io/styleguide/javaguide.html
 
  - CODIFICAÇÃO E SEMÂNTICA
-    - CLASSES
-    - INTERFACES
+    - CLASSES/INTERFACES
+       - Começa sempre com maiúscula
+       - Camel Case
+       - Nomes amigáveis
+          - Deve representar:
+             - Situação
+             - Contexto
+             - Problema
+             - Entidade
+             - Estado
+             - Objetivo
+    - MÉTODOS
+       - Começa sempre com minúscula
+       - Camel Case
+       - Nomes amigáveis
+          - Sempre inicia com verbo imperativo seguido de substantivo (indica o que faz, seguir lista acima)
+          - NÃO PODE TER OU/E (indica que faz mais de uma coisa)
+       - No máximo de uma identação
+       - Máximo de 50 linhas
+       - Chave abrindo na mesma linha
+       - Chave fechando na linha nova 
     - PACOTES
+       - Deve seguir regra de domínio inverso (br.org.reconcavo)
     - ESTRUTURAS
+       - Chave abrindo na mesma linha
+       - Com espaço entre parênteses e chave abrindo
+       - Chave fechando na linha nova
+       - Espaço entre if e parênteses
+       - Sem espaços entre parênteses e condições
+       - ESTRUTURAS CONDICIONAIS
+          - Máximo de 3 condições
+       - ESTRUTURAS DE LOOP
+          - Não pode usar chamada de métodos na condição de parada
+       - SWITCH-CASE
+          - Instruções e breaks em linhas separadas
+          - Sempre deve haver um default
+       - TRY/CATCH/FINALLY
+          - Com exceção de UI, não utilizar exceções-pai no catch ou especializar ao máximo as exceções disparadas
+          - Evitar try/catch para tratar regras de negócio. Validar dados com objetos/métodos de validação
+       - USING
     - VARIÁVEIS E ATRIBUTOS
     - CONSTANTES
-    - OBJETOS
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
