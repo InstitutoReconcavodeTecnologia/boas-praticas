@@ -1,0 +1,11 @@
+JAVA
+https://google.github.io/styleguide/javaguide.html
+
+ - CODIFICAÇÃO E SEMÂNTICA
+    - CLASSES
+    - INTERFACES
+    - PACOTES
+    - ESTRUTURAS
+    - VARIÁVEIS E ATRIBUTOS
+    - CONSTANTES
+    - OBJETOS
