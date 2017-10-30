@@ -1,7 +1,7 @@
 version: "3"
 services:
   eclipse:
-    image: irt/eclipse:oxygen
+    image: irt/eclipse:mars
     build:
       context: .
     environment:
