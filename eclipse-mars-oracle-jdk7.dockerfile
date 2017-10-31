@@ -6,5 +6,8 @@ RUN wget http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/downloads/rele
 RUN echo 'Installing eclipse'
 RUN tar -xf /tmp/eclipse.tar.gz -C /opt
 RUN rm /tmp/eclipse.tar.gz
+
+# Dependências do GTK
+RUN apt-get install -y libatk-adaptor libgail-common
  
-CMD /opt/eclipse/eclipse -data /root/workspace
+CMD /opt/eclipse/eclipse -data /root/workspace -clean
