@@ -2,6 +2,8 @@ JAVA
 https://google.github.io/styleguide/javaguide.html
 
  - CODIFICAÇÃO E SEMÂNTICA
+    - Todo código e documentação de código são escritos em inglês
+    - Comentário TODO e FIXME escritos em português. Evitar outros tipos de comentários, pois o código deve ser auto-explicativo (ver regras para Métodos)
     - CLASSES/INTERFACES
        - Começa sempre com maiúscula
        - Camel Case
@@ -18,7 +20,7 @@ https://google.github.io/styleguide/javaguide.html
        - Camel Case
        - Nomes amigáveis
           - Sempre inicia com verbo imperativo seguido de substantivo (indica o que faz, seguir lista acima)
-          - NÃO PODE TER OU/E (indica que faz mais de uma coisa)
+          - NÃO PODE TER OU/E/SE (indica que faz mais de uma coisa)
        - No máximo de uma identação
        - Máximo de 50 linhas
        - Chave abrindo na mesma linha
@@ -41,9 +43,19 @@ https://google.github.io/styleguide/javaguide.html
        - TRY/CATCH/FINALLY
           - Com exceção de UI, não utilizar exceções-pai no catch ou especializar ao máximo as exceções disparadas
           - Evitar try/catch para tratar regras de negócio. Validar dados com objetos/métodos de validação
-       - USING
-    - VARIÁVEIS E ATRIBUTOS
+    - VARIÁVEIS
+       - Nomes amigáveis
+          - Deve mostrar o que ela representa:
+             - Situação
+             - Contexto
+             - Entidade
+             - Estado
+          - Camel Case
+          - Sempre inicia com minúscula
+    - ATRIBUTOS DE CLASSE
+       - Nomes amigáveis (segue o de VARIÁVEIS)
     - CONSTANTES
+       - Tudo maiúsculo e palavras separadas por underscore
     
     
     

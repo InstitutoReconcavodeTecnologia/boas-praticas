@@ -1,11 +1,13 @@
 version: "3"
 services:
   eclipse:
-    image: irt/eclipse:oxygen
+    image: irt/eclipse:mars
     build:
       context: .
+      dockerfile: eclipse-mars-oracle-jdk7.dockerfile
     environment:
       DISPLAY: ${DISPLAY}
     volumes:
       - "/tmp/.X11-unix:/tmp/.X11-unix"
-      - "${HOME}/.eclipse-docker/workspace:/root/workspace"
+      - "${HOME}/workspace:/root/workspace"
+      - "${HOME}/.eclipse:/root/.eclipse"
