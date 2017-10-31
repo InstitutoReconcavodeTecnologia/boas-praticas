@@ -1,0 +1,18 @@
+version: "3"
+services:
+  selenium-hub:
+    image: selenium/hub
+    ports: ["4444:4444"]
+  selenium-node-firefox:
+    image: selenium/node-firefox-debug
+    ports: ["5900:5900"]
+    environment:
+      HUB_PORT_4444_TCP_ADDR: selenium-hub
+      HUB_PORT_4444_TCP_PORT: 4444
+  selenium-node-chrome:
+    image: selenium/node-chrome-debug
+    ports: ["5901:5900"]
+    environment:
+      HUB_PORT_4444_TCP_ADDR: selenium-hub
+      HUB_PORT_4444_TCP_PORT: 4444
+
