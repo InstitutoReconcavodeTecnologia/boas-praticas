@@ -1,7 +1,7 @@
 default:
     extensions:
         Behat\MinkExtension:
-            base_url: http://www.google.com
+            base_url: http://homologa.alerta24h.com.br:8080
             selenium2:
                 wd_host: http://localhost:4444/wd/hub
-                browser: firefox
+                browser: chrome
