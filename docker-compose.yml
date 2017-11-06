@@ -11,3 +11,23 @@ services:
       - "/tmp/.X11-unix:/tmp/.X11-unix"
       - "${HOME}/workspace:/root/workspace"
       - "${HOME}/.eclipse:/root/.eclipse"
+    networks: ["db"]
+
+  sgbdmysql:
+    image: mysql
+    ports: ["3306:3306"]
+    environment:
+      MYSQL_ROOT_PASSWORD: a24h
+      MYSQL_DATABASE: a24h
+      MYSQL_USER: a24h
+      MYSQL_PASSWORD: a24h
+    volumes:
+      - "dados:/var/lib/mysql"
+    networks: ["db"]
+
+volumes:
+  dados:
+
+networks:
+  db:
+
