@@ -26,7 +26,6 @@ class FeatureContext extends MinkContext// implements Context
      */
     public function teste($usuario)
     {
-        echo $usuario;
-        sleep(10);
+        
     }
 }

@@ -11,6 +11,7 @@ services:
       - "/tmp/.X11-unix:/tmp/.X11-unix"
       - "${HOME}/workspace:/root/workspace"
       - "${HOME}/.eclipse:/root/.eclipse"
+      - ".:/home/developer"
     networks: ["db"]
 
   sgbdmysql:
