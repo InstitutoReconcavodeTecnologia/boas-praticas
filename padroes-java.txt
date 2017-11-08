@@ -4,6 +4,9 @@ https://google.github.io/styleguide/javaguide.html
  - CODIFICAÇÃO E SEMÂNTICA
     - Todo código e documentação de código são escritos em inglês
     - Comentário TODO e FIXME escritos em português. Evitar outros tipos de comentários, pois o código deve ser auto-explicativo (ver regras para Métodos)
+    - IMPORTAÇÃO DE PACOTES
+       - Importar apenas as classes que serão usadas
+       - NÃO USAR pacote.*
     - CLASSES/INTERFACES
        - Começa sempre com maiúscula
        - Camel Case
@@ -56,7 +59,24 @@ https://google.github.io/styleguide/javaguide.html
        - Nomes amigáveis (segue o de VARIÁVEIS)
     - CONSTANTES
        - Tudo maiúsculo e palavras separadas por underscore
-    
+ - DOCUMENTAÇÃO DE CÓDIGO
+    - Documentação de classe
+       - Descrição sucinta da classe
+          - O que faz
+          - Quais classes do projeto a classe chama
+    - Documentação de inner-classes e classes anônimas (???)
+    - Documentação de métodos
+       - Documentar sempre métodos publicos e protegidos
+       - Descrição sucinta do método
+          - O que faz
+          - Descrição dos parâmetros
+          - Exceções lançadas
+          - O que retorna
+       - Explicar o que cada trecho das expressões regulares significam
+       - Caso o método seja cópia, ou baseado em algo que já existe, apontar o link
+    - Documentação de atributos, constantes
+       - Descrição sucinta
+          - Pra que serve
     
     
     

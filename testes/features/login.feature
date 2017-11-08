@@ -4,7 +4,7 @@ Funcionalidade: Login
   Posso fazer o login no sistema
   Para usar as funcionalidades do mesmo
 
-  Cenário: Teste
+  Cenário: Login no sistema
     Dado Eu estou em "/"
     Quando preencho "loginBox" com "carlos21"
     E preencho "senhaBox" com "123456"
@@ -12,3 +12,6 @@ Funcionalidade: Login
     Então Eu devo ver "Carlos"
     Quando pressiono "bt_ge"
     Então devo ver "Gerenciamento de Energia"
+
+  Cenário: Verificar Gerenciamento de Energia
+    Dado que eu estou conectado como "Carlos"
