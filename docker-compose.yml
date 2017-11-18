@@ -9,8 +9,8 @@ services:
       DISPLAY: ${DISPLAY}
     volumes:
       - "/tmp/.X11-unix:/tmp/.X11-unix"
-      - "${HOME}/workspace:/root/workspace"
-      - "${HOME}/.eclipse:/root/.eclipse"
+      - "./workspace:/root/workspace"
+      - "./.eclipse:/root/.eclipse"
       - ".:/home/developer"
     networks: ["db"]
 
