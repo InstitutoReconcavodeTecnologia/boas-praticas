@@ -1,0 +1,68 @@
+Tipos de Reuso
+ - Arquitetura
+ - Padrões de Projeto
+ - Frameworks
+ - Artefatos
+ - Módulos
+ - Templates
+ - Código
+
+
+
+5 níveis de reuso
+ 1 - *Classe - Reuso de Abstração
+ 2 - Herança/Polimorfismo - Reuso de Código
+ 3 - *Componentes - Reuso de Serviços
+ 4 - Padrões - Reuso de Modelagem
+ 5 - Frameworks - Reuso de Componentes
+
+
+
+Demoiselle (https://www.frameworkdemoiselle.gov.br/)
+ - Grupo que cria e recebe componentes e novas abstrações
+ - Site de Componentes e de Extensões
+
+
+
+GT-Dev de Infra
+ - Criação de Grupo para Análise de Reuso => FALHOU!!!
+    - Cadu => integrador
+ - PHP => Lumen e Laravel (já existe imagens básicas)
+    - Contracts
+    - Service Providers
+ - Python => Flask e Django (já existe imagens básicas)
+
+
+
+Quando NÃO fazer reuso (TODO ou FIXME)
+ 1 - Código muito específico
+ 2 - Muito caro (tempo e dinheiro)
+
+
+
+Quando DEVE fazer reuso
+ 1 - Código explícito para terceiros
+ 2 - Abstrações com possibilidades altas de reuso
+
+
+
+SEMPRE tentar
+ 1 - Repassar para equipe (chat; email; site em construção)
+ 2 - Revisitar códigos marcados (@FIXME ou @TODO)
+   2.1 - Não pode ter mais de uma marcação por unidade
+ 3 - (EM PROJETO) Marcações nos projetos de possibilidades de reuso; site vai usar marcação
+
+
+
+CONCLUSÃO
+ - MUDANÇA DE CULTURA - tem que estar no dia-a-dia dos desenvolvedores
+ - INCENTIVOS - (EM PROJETO) Vai contar para promoções (mas já contou...)
+ - INVESTIMENTO
+    - 1ª vez => paga-se pelo código escrito
+    - 2ª vez => paga-se pelo reuso
+    - 3ª vez => DE GRAÇA (ou quase)
+ - NOVO PAPEL - coordenador de reuso (arquiteto)
+ 
+ 
+ 
+ 

@@ -1,0 +1,10 @@
+-1 - PATROCÍNIO
+0 - Definição do workflow
+1 - Iniciar Padronização de Código
+2 - Iniciar Padronização de Documentação
+3 - Criar imagens básicas das linguagens e ambientes
+   3.1 - Subir as imagens no repo privado
+4 - Definição do integrador => Carlos
+5 - Iniciar regras de reuso
+6 - Iniciar testes automatizados
+7 - Iniciar regras de integração e entrega contínua

@@ -6,7 +6,7 @@ https://google.github.io/styleguide/javaguide.html
     - Comentário TODO e FIXME escritos em português. Evitar outros tipos de comentários, pois o código deve ser auto-explicativo (ver regras para Métodos)
     - IMPORTAÇÃO DE PACOTES
        - Importar apenas as classes que serão usadas
-       - NÃO USAR pacote.*
+       - NÃO USAR "import pacote.*"
     - CLASSES/INTERFACES
        - Começa sempre com maiúscula
        - Camel Case
@@ -24,7 +24,7 @@ https://google.github.io/styleguide/javaguide.html
        - Nomes amigáveis
           - Sempre inicia com verbo imperativo seguido de substantivo (indica o que faz, seguir lista acima)
           - NÃO PODE TER OU/E/SE (indica que faz mais de uma coisa)
-       - No máximo de uma identação
+       - Máximo de uma identação
        - Máximo de 50 linhas
        - Chave abrindo na mesma linha
        - Chave fechando na linha nova 
